@@ -7,17 +7,17 @@ public class Tv
 
     public void TurnOn()
     {
-        Console.WriteLine("TV is ON");
+        Console.WriteLine("Tv is On.");
     }
 
     public void TurnOff()
     {
-        Console.WriteLine("TV is OFF");
+        Console.WriteLine("TV is Off.");
     }
 
     public void ChangeChannel(int channel)
     {
-        Console.WriteLine("Changed to channel " + channel);
+        Console.WriteLine($"\nChanged to channel: {channel}.\n");
     }
 
     public void IncreaseVolume()
@@ -25,7 +25,7 @@ public class Tv
         if (volume < 100)
         {
             volume += 5;
-            Console.WriteLine("Volume increased to " + volume);
+            Console.WriteLine($"Volume increased to {volume}.");
         }
         else
         {
@@ -38,7 +38,7 @@ public class Tv
         if (volume > 0)
         {
             volume -= 5;
-            Console.WriteLine("Volume decreased to " + volume);
+            Console.WriteLine($"Volume decreased to {volume}.");
         }
         else
         {
