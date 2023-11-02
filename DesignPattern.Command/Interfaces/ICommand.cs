@@ -1,4 +1,4 @@
-﻿namespace DesignPattern.Command.Interfaces;
+﻿namespace DesignPattern.Command.Command;
 
 public interface ICommand
 {
