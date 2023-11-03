@@ -3,16 +3,16 @@ using DesignPattern.Singleton.Models;
 
 namespace DesignPattern.Singleton.Services;
 
-public class MyGardenService
+public class PlantService
 {
-    private static MyGardenService? _instance;
-    private MyGardenService() { }
+    private static PlantService? _instance;
+    private PlantService() { }
 
-    public static MyGardenService GetInstance()
+    public static PlantService GetInstance()
     {
         if (_instance == null)
         {
-            _instance = new MyGardenService();
+            _instance = new PlantService();
         }
 
         return _instance;
