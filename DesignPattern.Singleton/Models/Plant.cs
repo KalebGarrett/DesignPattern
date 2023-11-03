@@ -2,7 +2,7 @@
 
 namespace DesignPattern.Singleton.Models;
 
-public class MyGarden
+public class Plant
 {
     [JsonPropertyName("id")]
     public int Id { get; set; }

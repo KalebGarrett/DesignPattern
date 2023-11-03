@@ -18,7 +18,7 @@ public class MyGardenService
         return _instance;
     }
 
-    public async Task<List<MyGarden>> GetAll()
+    public async Task<List<Plant>> GetAll()
     {
 
         using var client = new HttpClient();
@@ -27,13 +27,13 @@ public class MyGardenService
         {
             Console.WriteLine($"HTTP Status Code: {result.StatusCode}\n");
             var json = await result.Content.ReadAsStringAsync();
-            return JsonSerializer.Deserialize<List<MyGarden>>(json)!;
+            return JsonSerializer.Deserialize<List<Plant>>(json)!;
         }
         else
         {
             Console.WriteLine($"HTTP Status Code: {result.StatusCode}");
         }
 
-        return new List<MyGarden>();
+        return new List<Plant>();
     }
 }
