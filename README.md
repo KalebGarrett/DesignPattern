@@ -6,7 +6,13 @@ A showcase of design patterns in C#.
 
 | Description |
 | ------------- |
-| Command pattern encapsulates a request as an object that contains all the information about the request, including requests for queues or logs, allowing for much more complex architectures. |
+| Command is a behavioral design pattern that encapsulates a request as an object that contains all the information about the request, including requests for queues or logs, allowing for much more complex architectures. |
+
+[Strategy Design Pattern](https://github.com/KalebGarrett/DesignPattern/tree/main/DesignPattern.Strategy)
+
+| Description |
+| ------------- |
+| Strategy is a behavioral design pattern that allows you to dynamically change the behavior of an object by encapsulating it into different strategies |
 
 ---
 
