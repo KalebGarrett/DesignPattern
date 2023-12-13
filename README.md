@@ -30,4 +30,4 @@ A showcase of design patterns in C#.
 
 | Description |
 | ------------- |
-| Adapter is a structural design pattern that allows objects with incompatible interfaces to collaborate. |
+| Adapter is a structural design pattern that allows objects with incompatible interfaces to collaborate. The object that joins these unrelated interface is called an Adapter. |
