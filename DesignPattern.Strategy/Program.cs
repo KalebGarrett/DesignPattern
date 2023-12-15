@@ -16,7 +16,7 @@ var soccerTeams = serviceProvider.GetService<IEnumerable<ISoccerTeamStrategy>>()
 
 while (true)
 {
-    Console.WriteLine("\nType the name of the soccer you want more " +
+    Console.WriteLine("\nType the name of the soccer team you want more " +
                       "information about or type (0) to quit.");
 
     if (soccerTeams != null)
