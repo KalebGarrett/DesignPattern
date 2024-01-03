@@ -23,6 +23,12 @@ A showcase of design patterns in C#.
 | ------------- |
 | Singleton is a creational design pattern that lets you ensure that a class has only one instance, while providing a global access point to this instance. |
 
+[Prototype Design Pattern](https://github.com/KalebGarrett/DesignPattern/tree/main/DesignPattern.Prototype)
+
+| Description |
+| ------------- |
+| Prototype is a creational design pattern that lets you copy existing objects without making your code dependent on their classes. |
+
 ---
 
 ## Structural
