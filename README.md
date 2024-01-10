@@ -37,3 +37,9 @@ A showcase of design patterns in C#.
 | Description |
 | ------------- |
 | Adapter is a structural design pattern that allows objects with incompatible interfaces to collaborate. The object that joins these unrelated interface is called an Adapter. |
+
+[Facade Design Pattern](https://github.com/KalebGarrett/DesignPattern/tree/main/DesignPattern.Facade)
+
+| Description |
+| ------------- |
+| Facade is a structural design pattern that provides a simplified (but limited) interface to a complex system of classes, library or framework. |
