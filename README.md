@@ -1,5 +1,8 @@
 # DesignPattern
-A showcase of design patterns in C#.
+
+[![image]](/Images/C#%20Logo.png)
+
+### A showcase of design patterns in C#.
 
 ## Behavioral
 [Command Design Pattern](https://github.com/KalebGarrett/DesignPattern/tree/main/DesignPattern.Command)
