@@ -1,6 +1,6 @@
 # DesignPattern
 
-![image](https://cdn.icon-icons.com/icons2/2415/PNG/512/csharp_original_logo_icon_146578.png =200x200)
+<img src="https://cdn.icon-icons.com/icons2/2415/PNG/512/csharp_original_logo_icon_146578.png" alt="C# Logo" width="100">
 
 ### A showcase of design patterns in C#.
 
