@@ -1,6 +1,6 @@
 # DesignPattern
 
-![image](https://miro.medium.com/v2/resize:fit:1400/1*w0u2TZpEp3WfKMrlL5jTSw.png)
+![image](/Images/C#-Logo.png)
 
 ### A showcase of design patterns in C#.
 
